@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Iyyanar Madeshvaran - inr1137m@gmail.com",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.16.5",
