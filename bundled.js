@@ -154,7 +154,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Home() {
-  const baseurl = "http://localhost:5000/";
+  const baseurl = "http://urlize-env.eba-epyqsmcd.us-east-2.elasticbeanstalk.com/";
   const [urlValue, seturlValue] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)();
   const [urlList, seturlList] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)();
   const [errorMsg, seterrorMsg] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)();
@@ -361,15 +361,15 @@ __webpack_require__.r(__webpack_exports__);
  // import { saveAs } from "file-saver"
 
 function UrlView(props) {
-  const baseurl = "http://localhost:5000/";
+  const baseurl_snap = "http://snappylin-env.eba-qgaa7sqm.us-east-2.elasticbeanstalk.com/";
   const [butVal, setbutval] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)("Snip");
   const [snipbutton, setsnipbutton] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false); //----------------------------------------
 
   async function download(url) {
-    console.log("Urlize : " + baseurl + "snip?url=" + url);
+    console.log("Urlize : " + baseurl_snap + "snip?url=" + url);
     setbutval("processing");
     setsnipbutton(true);
-    node_fetch__WEBPACK_IMPORTED_MODULE_1___default()(baseurl + "snip?url=" + url, {
+    node_fetch__WEBPACK_IMPORTED_MODULE_1___default()(baseurl_snap + "snip?url=" + url, {
       method: "GET",
       headers: {}
     }).then(response => {
