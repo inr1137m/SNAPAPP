@@ -1,18 +1,19 @@
 import React from "react"
 import Page from "./Page"
 
-function Terms() {
+function Portfolio() {
+  const portfolio_url = process.env.PORTFOLIO_URL
   return (
     <Page title="Portfolio" Wide="true">
       <h2>My Portfolio</h2>
       <p style={{ "text-align": "right" }}>
-        <a href="https://inr1137m.github.io/portfolio/" target="_blank">
+        <a href={portfolio_url} target="_blank">
           view in new tab
         </a>
       </p>
       <iframe
         className="portframe"
-        src="https://inr1137m.github.io/portfolio/"
+        src={portfolio_url}
         width="100%"
         height="100%"
         frameBorder="0"
@@ -48,4 +49,4 @@ function Terms() {
   )
 }
 
-export default Terms
+export default Portfolio

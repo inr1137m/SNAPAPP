@@ -18,12 +18,12 @@ function Header() {
             Home
           </button>
         </Link>
-        <Link to="/about-us">
+        <Link to="/about">
           <button id="navtag" className="btn bg-transparent">
             About
           </button>
         </Link>
-        <Link to="/terms">
+        <Link to="/portfolio">
           <button id="navtag" className="btn bg-transparent">
             Portfolio
           </button>

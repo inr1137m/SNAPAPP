@@ -3,17 +3,17 @@ import fetch from "node-fetch"
 // import { saveAs } from "file-saver"
 
 function UrlView(props) {
-  const baseurl = process.env.URLIZE_BASE_URL
+  const baseurl_snap = process.env.SNAPPY_BASE_URL
   const [butVal, setbutval] = useState("Snip")
   const [snipbutton, setsnipbutton] = useState(false)
 
   //----------------------------------------
 
   async function download(url) {
-    console.log("Urlize : " + baseurl + "snip?url=" + url)
+    console.log("Urlize : " + baseurl_snap + "snip?url=" + url)
     setbutval("processing")
     setsnipbutton(true)
-    fetch(baseurl + "snip?url=" + url, {
+    fetch(baseurl_snap + "snip?url=" + url, {
       method: "GET",
       headers: {}
     })

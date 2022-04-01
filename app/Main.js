@@ -5,10 +5,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 //components
 import Header from "./components/Header"
-import Footer from "./components/Footer"
-import About from "./components/About"
-import Terms from "./components/Terms"
 import Home from "./components/Home"
+import About from "./components/About"
+import Portfolio from "./components/Portfolio"
+import Footer from "./components/Footer"
 
 ///Routing Single page application
 function Main() {
@@ -17,8 +17,8 @@ function Main() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about-us" element={<About />} />
-        <Route path="/terms" element={<Terms />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
       <Footer />
     </BrowserRouter>
