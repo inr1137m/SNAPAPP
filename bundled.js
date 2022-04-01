@@ -14,6 +14,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _Page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Page */ "./app/components/Page.js");
+/* harmony import */ var public_SNAPAPP_ARCH_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! public/SNAPAPP_ARCH.jpg */ "./app/public/SNAPAPP_ARCH.jpg");
+
 
 
 
@@ -25,7 +27,12 @@ function About() {
     className: "lead text-muted"
   }, "Hi there \uD83D\uDD90,"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: " text-muted"
-  }, "This is a Single-Page-Application (\uD83D\uDCC4SPA) developed using component based \uD83C\uDF10React Js framework and the \u2693Rest API's was developed using \uD83D\uDC0DPython frameworks for URL \uD83D\uDD78Web Scraper and URL \uD83D\uDCF8Screenshot features. This was completely designed and developed for \uD83D\uDC68\u200D\uD83D\uDD2Cmy self-learning and practical hands-on\uD83D\uDC68\u200D\uD83D\uDCBB in this frameworks."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Front-End "), "\uD83D\uDCBB : React Js + Bootstrap + Css + Html5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Back-End "), "\uD83D\uDEE0 : Python + Flask + Waitress"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Javascript Libraries "), "\uD83D\uDCD9 :", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", null, " React, Node-fetch, Form-data, Webpack & Babel")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Python Libraries "), "\uD83D\uDCD7 :", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", null, " Flask, Flask-cors, Waitress, Selenium & Simplified-scrapy"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Github Repo's :"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  }, "This is a Single-Page-Application (\uD83D\uDCC4SPA) developed using component based \uD83C\uDF10React Js framework and the \u2693Rest API's was developed using \uD83D\uDC0DPython frameworks for URL \uD83D\uDD78Web Scraper and URL \uD83D\uDCF8Screenshot features. This was completely designed and developed for \uD83D\uDC68\u200D\uD83D\uDD2Cmy self-learning and practical hands-on\uD83D\uDC68\u200D\uD83D\uDCBB in this frameworks."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Front-End "), "\uD83D\uDCBB : React Js + Bootstrap + Css + Html5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Back-End "), "\uD83D\uDEE0 : Python + Flask + FastAPI + Uvicorn"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Javascript Libraries "), "\uD83D\uDCD9 :", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", null, " React, Node-fetch, Form-data, Webpack & Babel")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Python Libraries "), "\uD83D\uDCD7 :", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", null, " ", "Flask, Flask-cors, Simplified-scrapy, FastAPI, Uvicorn & Pyppeteer"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Deployed in AWS Cloud using CI/CD Pipeline integration with Github, Code-Pipeline, Beanstalk, EC2 and S3.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: public_SNAPAPP_ARCH_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
+    className: "img-fluid",
+    id: "arch_img",
+    alt: "Aws Deployment Diagram"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Github Repo's :"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://github.com/inr1137m/SNAPAPP.git",
     target: "_blank"
   }, " ", "Source Code-UI \uD83C\uDF10")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
@@ -409,6 +416,20 @@ function UrlView(props) {
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (UrlView);
+
+/***/ }),
+
+/***/ "./app/public/SNAPAPP_ARCH.jpg":
+/*!*************************************!*\
+  !*** ./app/public/SNAPAPP_ARCH.jpg ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "c4b98c9834f11790e10a57454e8c55ba.jpg");
 
 /***/ }),
 
@@ -32605,6 +32626,11 @@ function _extends() {
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		__webpack_require__.p = "/";
 /******/ 	})();
 /******/ 	
 /************************************************************************/
