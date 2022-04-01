@@ -1,5 +1,6 @@
 import React from "react"
 import Page from "./Page"
+import arch from "public/SNAPAPP_ARCH.jpg"
 
 function About() {
   return (
@@ -18,7 +19,7 @@ function About() {
           <strong>Front-End </strong>💻 : React Js + Bootstrap + Css + Html5
         </li>
         <li>
-          <strong>Back-End </strong>🛠 : Python + Flask + Waitress
+          <strong>Back-End </strong>🛠 : Python + Flask + FastAPI + Uvicorn
         </li>
         <li>
           <strong>Javascript Libraries </strong>📙 :
@@ -26,9 +27,26 @@ function About() {
         </li>
         <li>
           <strong>Python Libraries </strong>📗 :
-          <i> Flask, Flask-cors, Waitress, Selenium & Simplified-scrapy</i>
+          <i>
+            {" "}
+            Flask, Flask-cors, Simplified-scrapy, FastAPI, Uvicorn & Pyppeteer
+          </i>
         </li>
       </ul>
+      <p>
+        <strong>
+          Deployed in AWS Cloud using CI/CD Pipeline integration with Github,
+          Code-Pipeline, Beanstalk, EC2 and S3.
+        </strong>
+      </p>
+      <img
+        src={arch}
+        className="img-fluid"
+        id="arch_img"
+        alt="Aws Deployment Diagram"
+      />
+      <br />
+      <br />
       <p>
         <strong>Github Repo's :</strong>
         <ul>

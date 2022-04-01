@@ -13,7 +13,12 @@ module.exports = {
     filename: "bundled.js"
   },
   mode: process.env.NODE_ENV || "development",
-  resolve: { modules: [path.resolve(__dirname), "node_modules"] },
+  resolve: {
+    modules: [path.resolve(__dirname), "node_modules"],
+    alias: {
+      public: path.join(__dirname, "./app/public")
+    }
+  },
   performance: {
     hints: false
   },
